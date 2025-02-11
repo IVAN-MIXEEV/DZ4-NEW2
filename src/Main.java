@@ -26,10 +26,10 @@ public class Main {
         int age2 = 13;
         int age3 = 21;
         int age4 = 26;
-        if (age1 > 2 && age1 < 6) {
+        if (age1 >= 2 && age1 <= 6) {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в детский сад ");
         }
-        if (age2 > 7 && age2 < 17) {
+        if (age2 >= 7 && age2 <= 17) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу");
         }
         if (age3 >= 18 && age3 <= 24) {
@@ -42,13 +42,13 @@ public class Main {
         int ageChildren = 4;
         int ageChildren2 = 6;
         int ageChildren3 = 16;
-        if (ageChildren < 5) {
+        if (ageChildren <= 5) {
             System.out.println("Если возраст ребёнка равен " + ageChildren + " ,то ему нельзя кататься на аттракционе.");
         }
         if (ageChildren2 > 5 && ageChildren2 < 14) {
             System.out.println("Если возраст ребёнка равен " + ageChildren2 + " ,то ему можно кататься на аттракционе в сопровождении взрослого.");
         }
-        if (ageChildren3 > 14) {
+        if (ageChildren3 >= 14) {
             System.out.println("Если возраст ребёнка равен " + ageChildren3 + " ,то он может кататься на аттракционе самостоятельно.");
         }
 //№6
